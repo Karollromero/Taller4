@@ -1,0 +1,49 @@
+.gridContenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 20px;
+    background-color: rgb(137, 62, 137);
+    justify-content: center;
+}
+.gridItems {
+    background-color: #d5d3d1;
+    padding: 10px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    
+}
+.griditems {
+    background-color: #fcb73e ;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 270px;
+    width: 110px;
+}
+.griditems2 {
+    background-color: #FFA07A;
+    height: 270px;
+    width: 120px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.griditems3 {
+    background-color: #d5d3d1;
+    width: 200px;
+}
+.gridItem {
+    background-color: #d5d3d1;
+    padding: 10px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: 3/3;
+}
+.gridItem2 {
+    background-color: #d5d3d1;
+    padding: 10px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: 2/2;
+}

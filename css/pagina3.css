@@ -1,0 +1,47 @@
+.flexcontenedor {
+    display: flex;
+    background-color: #0f2a44;
+    justify-content: space-between
+}
+.divizquierdo {
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+.divderecho {
+    padding: 40px;
+    width: 50%;
+    text-align: center;
+}
+.gridcontenedor {
+    display: grid;
+    grid-template-columns: 15% 15% 15%;
+    background-color: rgb(234, 229, 229);
+    column-gap: 100px;
+    justify-content: center;
+}
+.griditem {
+    background-color: rgb(44, 96, 227);
+    text-align: center;
+    padding-top: 40px;
+}
+.gridContenedor2 {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    background-color: rgb(234, 229, 229);
+    justify-content: center;
+}
+.gridcontenedor3 {
+    display: grid;
+    grid-template-columns: 25% 25% ;
+    background-color: rgb(234, 229, 229);
+    gap: 100px;
+    justify-content: center;
+}
+.griditem2 {
+    background-color: orange;
+    text-align: center;
+    padding-top: 10px;
+    height: 200px;
+    width: 250px;
+}
